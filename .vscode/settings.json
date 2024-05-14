@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Webdev"
+    "liveServer.settings.multiRootWorkspaceName": "Webdev",
+    "files.autoSave": "afterDelay"
 }

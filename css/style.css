@@ -20,7 +20,7 @@ body {
 }
 
 .hero {
-    background-image: url('hero-image.jpg');
+    background-image:url(../images/shoes.jpg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -29,6 +29,9 @@ body {
     justify-content: center;
     color: #fff;
     text-align: center;
+}
+.hero h1{
+    color: #333;
 }
 
 .products {
@@ -62,4 +65,49 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+.contact {
+    padding: 2em;
+    background-color: #fff;
+    max-width: 600px;
+    margin: 2em auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.contact label {
+    margin: 0.5em 0 0.2em;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 0.7em;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #555;
 }
