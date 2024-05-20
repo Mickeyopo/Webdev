@@ -205,3 +205,114 @@ body {
     font-size: 1em;
 }
 
+/* Reset some default browser styles */
+body, h1, p, form, input, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* General body styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* Main heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form instructions */
+p1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+/* Form styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="date"],
+form input[type="time"],
+form input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="radio"] {
+    margin-left: 10px;
+}
+
+form input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #575757;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 1em;
+}
