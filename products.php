@@ -23,7 +23,7 @@
     </div>
 
     <?php
-    // Example array of products (in a real scenario, this data could come from a database)
+    
     $products = [
         [
             "image" => "images/run1.jpeg",
@@ -51,7 +51,7 @@
         ]
     ];
 
-    // Loop through products and display them
+   
     foreach ($products as $product) {
         echo '<div class="container">';
         echo '    <div class="product-image">';

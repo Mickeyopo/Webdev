@@ -57,7 +57,7 @@
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Retrieve and sanitize form data
+        
         $name = htmlspecialchars($_POST['name']);
         $password = htmlspecialchars($_POST['password']);
         $email = htmlspecialchars($_POST['email']);
@@ -68,7 +68,7 @@
         $shoe_size = htmlspecialchars($_POST['shoe_size']);
         $phone_number = htmlspecialchars($_POST['phone_number']);
 
-        // Display the form data
+     
         echo "<h2>Your Input:</h2>";
         echo "Name: " . $name . "<br>";
         echo "Email: " . $email . "<br>";
