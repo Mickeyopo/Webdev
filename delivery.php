@@ -9,13 +9,13 @@
 <body>
     
     <header class="navbar">
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="delivery.html">Delivery</a>
-        <a href="help.html">Help</a>
-        <a href="products.html">Products</a>
+        <a href="index.php">Home</a>
+        <a href="shop.php">Shop</a>
+        <a href="about.php">About</a>
+        <a href="contact.php">Contact</a>
+        <a href="delivery.php">Delivery</a>
+        <a href="help.php">Help</a>
+        <a href="products.php">Products</a>
     </header>
 
     <div class="container">
@@ -51,12 +51,12 @@
         <br>
         <section>
             <h2>International Shipping Policy</h2>
-            <p>We currently do not ship outside Kenya</p>
+            <p>We currently do not ship outside Kenya.</p>
         </section>
         <br>
         <section>
             <h2>Returns Policy</h2>
-            <p>Our <a href="contact.html">Returns Policy</a> provides detailed information about options and procedures for returning your order.</p>
+            <p>Our <a href="contact.php">Returns Policy</a> provides detailed information about options and procedures for returning your order.</p>
         </section>
     </div>
   

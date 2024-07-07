@@ -9,13 +9,13 @@
 <body>
 
     <header class="navbar">
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="delivery.html">Delivery</a>
-        <a href="help.html">Help</a>
-        <a href="products.html">Products</a>
+        <a href="index.php">Home</a>
+        <a href="shop.php">Shop</a>
+        <a href="about.php">About</a>
+        <a href="contact.php">Contact</a>
+        <a href="delivery.php">Delivery</a>
+        <a href="help.php">Help</a>
+        <a href="products.php">Products</a>
     </header>
 
     <section class="hero">
@@ -42,7 +42,6 @@
             </form>
         </div>
     </section>
-
 
 </body>
 </html>
