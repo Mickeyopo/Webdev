@@ -56,7 +56,7 @@
         <br>
         <section>
             <h2>Returns Policy</h2>
-            <p>Our <a href="contact.php">Returns Policy</a> provides detailed information about options and procedures for returning your order.</p>
+            <p>Goods may be returned if product was damaged before shipping.If the package was opened before reaching the client you are oblidged to contact us via <a href="contact.php">this link </a> </p>
         </section>
     </div>
   

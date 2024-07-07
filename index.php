@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoe Palace</title>
-    <link rel="stylesheet" href="/css/style.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="/css/style.css"> 
 </head>
 <body>
     <header class="navbar">
@@ -23,7 +23,7 @@
 
     <section class="products">
         <?php
-        // Example array of products (in a real scenario, this data could come from a database)
+       
         $products = [
             [
                 "image" => "images/stay2.jpeg",
@@ -47,7 +47,7 @@
             ]
         ];
 
-        // Loop through products and display them
+       
         foreach ($products as $product) {
             echo '<div class="product">';
             echo '<img src="' . $product['image'] . '" alt="' . $product['name'] . '">';
