@@ -17,6 +17,10 @@
         <a href="help.php">Help</a>
         <a href="products.php">Products</a>
     </header>
+    <div class="topnav-right">
+        <a href="signup.php">Sign Up</a>
+        <a href="signin.php">Sign In</a>
+    </div>
 
     <h1>Shoe Palace</h1>
     <p>Please fill the form when ready to place an order</p>

@@ -17,6 +17,10 @@
         <a href="delivery.php">Delivery</a>
         <a href="help.php">Help</a>
     </header>
+    <div class="topnav-right">
+        <a href="signup.php">Sign Up</a>
+        <a href="signin.php">Sign In</a>
+    </div>
 
     <section class="hero">
         <h1>About Shoe Palace</h1>
