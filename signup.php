@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <?php
@@ -35,8 +36,8 @@
     </header>
 
     <div class="topnav-right">
-        <a href="signup.php" >Sign Up</a>
-        <a href="signin.php" >Sign In</a>
+        <a href="signup.php">Sign Up</a>
+        <a href="signin.php">Sign In</a>
     </div>
     <div class="row">
         <div class="content">
