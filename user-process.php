@@ -55,8 +55,8 @@ if (isset($_POST["signin"])){
 
         //Verify if the entered-password is identical to the stored_password
         if(password_verify($entered_password, $stored_password)){
-            //if the two passwords match, redirect to index.php
-            header("Location: ../index.php")
+            //if the two passwords match, redirect to viewUsers.php
+            header("Location: ../viewUsers.php")
             exit();
         }else{
             //otherwise redirect back to signin.php.
@@ -65,6 +65,11 @@ if (isset($_POST["signin"])){
             exit();
         }
     }
+    //signout process
+    if(isset($_GET["signout"]));
+    unset($_SESSION["control"]);
+    header("Location: ../signin.php");
+    exit();
   
 }
 ?>
